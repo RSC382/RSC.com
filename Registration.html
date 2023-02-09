@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Registration</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body style="background-color: bisque;">
+    <div align="center" style="color: rgb(12, 2, 2); background-color: rgb(221, 41, 95);">
+        <div id="head-title" style="font-size: 200%;">Welcome In<br /></div>
+        <div style="font-size: 200%;" color="black">Rockey Sales Corpotion</div>
+    </div>
+    <div style="line-height: 200%; font-size: 90%;">
+        <main>
+            <nav>
+                <ul>
+                    <li style="padding: 0% 0% 0% 0%"><a href="RSC.html ">Home</a></li>
+                    <li style="padding: 0% 0% 0% 0% "><a href="Registration.html ">Registration</a></li>
+                    <li style="padding: 0% 0% 0% 0% "><a href="RSC.html ">About Us</a></li>
+                    <li style="padding: 0% 0% 0% 0% "><a href="Contect.html">Contect Us</a></li>
+                    <li style="padding: 0% 0% 0% 0% "><a href="RSC.html ">More</a></li>
+
+                </ul>
+            </nav>
+        </main>
+    </div>
+    <div style="height: 650px; background-color: white; margin: 0px 50px 0px 50px;">
+        <h1 align=" center" style="margin: 5px 0px 0px 0px;"> Registration</h1>
+        <p align="center" style="margin: 50px 0px 0px 22px;"> 1. Enter Your Name :
+            <input type="text" style="margin: 0% 0% 0% 20%; padding: 0% 20% 0% 0%;"></p>
+        <p align=" center" style="margin: 30px 0px 0px 22px; "> 2. Enter Your Father Name :
+            <input type="text" style="margin: 0% 0% 0% 15%; padding: 0% 20% 0% 0%;"></p>
+        <p align=" center" style="margin: 30px 0px 0px 0px; "> 3. Enter Your DOB :
+            <input type="date" style="margin: 0% 0% 0% 20%; padding: 0% 20% 0% 0%;"></p>
+        <p align="center" style="margin: 30px 0px 0px 20px;"> 4. Enter Your Mobile No. :
+            <input type="number" style="margin: 0% 0% 0% 15%; padding: 0% 20% 0% 0%;"></p>
+        <p align="center " style="margin: 30px 0px 0px 20px; "> 5. Enter Your Email :
+            <input type="email" style="margin: 0% 0% 0% 19%;  padding: 0% 20% 0% 0%;"></p>
+        <p align="center" style="margin: 30px 0px 0px 20px;"> 6. Enter Your Adhar Number :
+            <input type="number" style="margin: 0% 0% 0% 13%; padding: 0% 20% 0% 0%;"></p>
+        <p align="center" style="margin: 30px 0px 0px 20px;"> 7. Enter Your Address :
+            <input type="text" style="margin: 0% 0% 0% 18%; padding: 0% 20% 5% 0%;"></p>
+
+        <div style="margin: 0px 0px 0px 20px; padding: 3% 0% 0% 12%;">
+            <label style="padding: 0% 29% 0% 0%;">8. Gender</label> &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="8. Gender " id="Male "> &nbsp;
+            <span id="Male">Male</span> &nbsp;&nbsp;&nbsp;
+            <input type="radio" name="8. Gender " id="Female "> &nbsp;
+            <span id="Female">Female</span>
+        </div>
+        <div style="margin: 0px 0px 0px 20px; padding: 3% 0% 0% 12%;">
+            <label style="padding: 0% 29% 0% 0%;">9. Select Type</label>
+            <select class="Register Type">
+                <option>Select Type</option>
+                <option>Dealer</option>
+                <option>Sub-Dealer/Retailer</option>
+                <option>Tekedar</option>
+                <option>Coustomer</option></select>
+        </div>
+        <div class="File" style="margin: 0px 0px 0px 16px; padding: 3% 0% 0% 12%;">
+            <label style="padding: 0% 29% 0% 0%;">10. Select Your Photo</label>
+            <input style="margin: 0px 0px 0px -6%;" class="File-upload-input" type="File" onchange="readurl(this);" accept="image/" />
+
+        </div>
+        <div align="center" style="margin: 40px 0px 0px 20px; ">
+            <button type="submit" style="background-color:green; padding: 5px 5px 5px 5px;">Submit</button>
+        </div>
+</body>
+
+</html>
